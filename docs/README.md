@@ -29,38 +29,7 @@ Welcome to the project documentation. This index will guide you through all arch
 
 ### Analysis & Refactoring
 
-4. **[architecture-analysis-report.md](./architecture-analysis-report.md)** - 🔍 **Initial Analysis**
-   - Original architecture violations found
-   - Detailed problem descriptions
-   - Recommendations provided
-   - Historical reference
-
-5. **[REFACTORING-COMPLETE.md](./REFACTORING-COMPLETE.md)** - ✅ **Refactoring Summary**
-   - Changes made during refactoring
-   - File movements and modifications
-   - Achievement summary
-
-6. **[REFACTORING-FINAL-REPORT.md](./REFACTORING-FINAL-REPORT.md)** - 📋 **Final Report**
-   - Complete refactoring report
-   - Technical details
-   - All changes documented
-
-7. **[RESUMO-EXECUTIVO-PT.md](./RESUMO-EXECUTIVO-PT.md)** - 🇧🇷 **Executive Summary (PT)**
-   - Resumo executivo em português
-   - Certificação de conformidade
-   - Principais conquistas
-
-8. **[SUMMARY.md](./SUMMARY.md)** - 📝 **Quick Summary**
-   - Quick overview
-   - Validation results
-   - Status and next steps
-
-9. **[QUICK-WINS.md](./QUICK-WINS.md)** - 🎯 **Quick Wins**
-   - Immediate benefits
-   - Before/After comparisons
-   - Practical gains
-
-10. **[INICIO-RAPIDO.md](./INICIO-RAPIDO.md)** - 🚀 **Quick Start (PT)**
+4. **[INICIO-RAPIDO.md](./INICIO-RAPIDO.md)** - 🚀 **Quick Start (PT)**
     - Guia de início rápido em português
     - Comandos essenciais
     - Primeiros passos
@@ -69,18 +38,18 @@ Welcome to the project documentation. This index will guide you through all arch
 
 ## 👨‍💻 Development Guidelines
 
-11. **[CHECKLIST.md](./CHECKLIST.md)** - ✅ **Compliance Checklist**
+5. **[CHECKLIST.md](./CHECKLIST.md)** - ✅ **Compliance Checklist**
     - Architecture compliance checklist
     - Code review checklist
     - Red flags to avoid
     - Pull request checklist
 
-12. **[conventions.md](./conventions.md)** - 📝 **Coding Conventions**
+6. **[conventions.md](./conventions.md)** - 📝 **Coding Conventions**
     - Code style guidelines
     - Naming conventions
     - Best practices
 
-13. **[code-review-guidelines.md](./code-review-guidelines.md)** - 👀 **Code Review**
+7. **[code-review-guidelines.md](./code-review-guidelines.md)** - 👀 **Code Review**
     - Review checklist
     - What to look for
     - Common pitfalls
@@ -92,17 +61,15 @@ Welcome to the project documentation. This index will guide you through all arch
 ### For New Developers
 Read in this order:
 1. `INICIO-RAPIDO.md` (PT) or `README.md` (root) - Quick start
-2. `RESUMO-EXECUTIVO-PT.md` (PT) or `SUMMARY.md` - Executive summary
-3. `architecture.md` - Understand the principles
-4. `ARCHITECTURE-VISUAL-GUIDE.md` - See the structure visually
-5. `ARCHITECTURE-CURRENT.md` - Detailed current state
-6. `conventions.md` - Coding standards
+2. `architecture.md` - Understand the principles
+3. `ARCHITECTURE-VISUAL-GUIDE.md` - See the structure visually
+4. `ARCHITECTURE-CURRENT.md` - Detailed current state
+5. `conventions.md` - Coding standards
 
 ### For Architects/Tech Leads
 1. `architecture.md` - Core principles
 2. `ARCHITECTURE-CURRENT.md` - Implementation details
-3. `architecture-analysis-report.md` - Historical context
-4. Review `ArchitectureTest.java` in code
+3. Review `ArchitectureTest.java` in code
 
 ### For Code Reviewers
 1. `code-review-guidelines.md` - Review standards
@@ -134,8 +101,6 @@ Additionally, each layer has a README in the source tree:
 | architecture.md | ✅ Original Spec | - |
 | ARCHITECTURE-CURRENT.md | ✅ Up to date | Feb 27, 2026 |
 | ARCHITECTURE-VISUAL-GUIDE.md | ✅ Up to date | Feb 27, 2026 |
-| architecture-analysis-report.md | 📋 Historical | Feb 27, 2026 |
-| REFACTORING-COMPLETE.md | ✅ Complete | Feb 27, 2026 |
 | conventions.md | ✅ Active | - |
 | code-review-guidelines.md | ✅ Active | - |
 
