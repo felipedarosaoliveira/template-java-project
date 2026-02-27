@@ -105,10 +105,9 @@ class ArchitectureTest {
                 .layer("Application").definedBy("..application.usecase..")
                 .layer("Infrastructure").definedBy("..infrastructure..")
 
-                .whereLayer("Domain").mayNotAccessAnyLayer()
-                .whereLayer("Application").mayOnlyAccessLayers("Domain")
-                .whereLayer("Infrastructure").mayOnlyAccessLayers("Application", "Domain")
-
+                .whereLayer("Domain").mayOnlyBeAccessedByLayers("Application", "Infrastructure")
+                .whereLayer("Application").mayOnlyBeAccessedByLayers("Infrastructure")
+                .whereLayer("Infrastructure").mayNotBeAccessedByAnyLayer()
                 .because("Layered architecture must follow the Dependency Rule")
                 .check(classes);
     }
