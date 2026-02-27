@@ -1,7 +1,0 @@
-br/com/company/application/usecase/GetMessageUseCase.class
-br/com/company/application/usecase/HelloUseCase.class
-br/com/company/Application.class
-br/com/company/application/usecase/CreateMessageUseCase.class
-br/com/company/application/adapter/web/MessageController.class
-br/com/company/application/adapter/persistence/InMemoryMessageRepository.class
-br/com/company/application/config/DomainConfiguration.class

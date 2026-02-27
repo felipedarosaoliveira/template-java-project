@@ -1,7 +1,0 @@
-/Users/felipe.oliveira/Documents/workspace/template/application/src/main/java/br/com/company/Application.java
-/Users/felipe.oliveira/Documents/workspace/template/application/src/main/java/br/com/company/application/usecase/HelloUseCase.java
-/Users/felipe.oliveira/Documents/workspace/template/application/src/main/java/br/com/company/application/config/DomainConfiguration.java
-/Users/felipe.oliveira/Documents/workspace/template/application/src/main/java/br/com/company/application/usecase/CreateMessageUseCase.java
-/Users/felipe.oliveira/Documents/workspace/template/application/src/main/java/br/com/company/application/adapter/web/MessageController.java
-/Users/felipe.oliveira/Documents/workspace/template/application/src/main/java/br/com/company/application/usecase/GetMessageUseCase.java
-/Users/felipe.oliveira/Documents/workspace/template/application/src/main/java/br/com/company/application/adapter/persistence/InMemoryMessageRepository.java
